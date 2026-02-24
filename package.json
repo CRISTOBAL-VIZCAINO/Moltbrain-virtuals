@@ -1,0 +1,44 @@
+{
+  "name": "@moltbrain/game-plugin",
+  "version": "1.0.0",
+  "description": "GAME SDK plugin for Virtuals Protocol — gives any Virtuals AI agent persistent memory and storage via MoltBrain x402 micropayments on Base",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format cjs,esm --out-dir dist",
+    "example": "tsx src/example.ts"
+  },
+  "keywords": [
+    "virtuals",
+    "game-sdk",
+    "moltbrain",
+    "x402",
+    "base",
+    "ai-agents",
+    "memory",
+    "eip-3009",
+    "usdc",
+    "micropayments"
+  ],
+  "author": "nhevers",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhevers/Moltbrain-virtuals"
+  },
+  "dependencies": {
+    "@virtuals-protocol/game": "^0.1.9",
+    "ethers": "^6.13.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.2"
+  },
+  "files": [
+    "dist"
+  ]
+}

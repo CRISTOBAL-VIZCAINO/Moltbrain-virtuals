@@ -1,0 +1,52 @@
+name: MoltBrain Memory Plugin
+description: >
+  GAME SDK plugin that gives any Virtuals AI agent persistent long-term memory
+  and storage via MoltBrain. Agents pay per request with x402 USDC micropayments
+  on Base. Supports chat, semantic search, blob storage, and named memory slots.
+version: 1.0.0
+author: nhevers
+repository: https://github.com/nhevers/Moltbrain-virtuals
+license: MIT
+tags:
+  - memory
+  - storage
+  - x402
+  - base
+  - usdc
+  - micropayments
+  - ai-agents
+  - moltbrain
+  - eip-3009
+  - virtuals
+  - game-sdk
+category: Memory & Storage
+network: base
+token: USDC
+functions:
+  - name: moltbrain_chat
+    description: Chat with MoltBrain AI ($0.01 USDC)
+    cost: $0.01
+  - name: moltbrain_search
+    description: Semantic memory search ($0.01 USDC)
+    cost: $0.01
+  - name: moltbrain_store
+    description: Store a content-addressed blob ($0.01 USDC)
+    cost: $0.01
+  - name: moltbrain_retrieve
+    description: Retrieve a stored blob by hash ($0.01 USDC)
+    cost: $0.01
+  - name: moltbrain_allocate_slot
+    description: Allocate a named memory slot ($0.01 USDC)
+    cost: $0.01
+  - name: moltbrain_write_slot
+    description: Write data to a memory slot ($0.01 USDC)
+    cost: $0.01
+  - name: moltbrain_read_slot
+    description: Read data from a memory slot ($0.01 USDC)
+    cost: $0.01
+  - name: moltbrain_stats
+    description: Get memory analytics ($0.01 USDC)
+    cost: $0.01
+  - name: moltbrain_capacity
+    description: Get node storage capacity (FREE)
+    cost: $0.00

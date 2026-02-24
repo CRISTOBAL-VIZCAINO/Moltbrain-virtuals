@@ -1,0 +1,6 @@
+src/
+.env
+.env.example
+.gitignore
+tsconfig.json
+node_modules/
