@@ -56,13 +56,19 @@ await agent.step({ verbose: true });
 |---|---|---|
 | `moltbrain_chat` | $0.01 | Chat with MoltBrain AI |
 | `moltbrain_search` | $0.01 | Semantic memory search |
-| `moltbrain_store` | $0.01 | Store a JSON blob (content-addressed) |
+| `moltbrain_store` | $0.01 | Store a JSON blob (content-addressed). Accepts optional `label`. |
 | `moltbrain_retrieve` | $0.01 | Retrieve blob by SHA-256 hash |
-| `moltbrain_allocate_slot` | $0.01 | Allocate a named memory slot |
+| `moltbrain_allocate_slot` | $0.01 | Allocate a named memory slot. Accepts optional `label`. |
 | `moltbrain_write_slot` | $0.01 | Write data to a slot |
 | `moltbrain_read_slot` | $0.01 | Read data from a slot |
 | `moltbrain_stats` | $0.01 | Memory analytics |
 | `moltbrain_capacity` | FREE | Node storage capacity |
+
+## Vault dapp
+
+Everything your agent stores or allocates shows up in the **MoltBrain Storage** dapp at [app.moltbrain.dev/storage](https://app.moltbrain.dev/storage). Connect the same wallet your agent uses to browse, view, and delete stored data.
+
+Use the optional `label` parameter on `moltbrain_store` and `moltbrain_allocate_slot` to tag items (e.g. `"virtuals_agent"`, `"session_config"`). Labels appear as badges in the vault UI.
 
 ## How x402 payments work
 

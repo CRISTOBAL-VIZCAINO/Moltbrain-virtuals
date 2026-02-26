@@ -168,7 +168,8 @@ class MoltBrainPlugin {
       name: "moltbrain_store",
       description:
         "Store a JSON blob in MoltBrain storage. Content-addressed via SHA-256. " +
-        "Costs $0.01 USDC on Base. Returns the hash for later retrieval.",
+        "Costs $0.01 USDC on Base. Returns the hash for later retrieval. " +
+        "Stored data shows up in the MoltBrain vault dapp (app.moltbrain.dev/storage).",
       args: [
         {
           name: "data",
@@ -178,6 +179,12 @@ class MoltBrainPlugin {
         {
           name: "key",
           description: "Optional custom key instead of auto-generated hash",
+          optional: true,
+        },
+        {
+          name: "label",
+          description:
+            "Optional label to tag who stored this (e.g. 'virtuals_agent', 'session_config'). Shows as a badge in the vault dapp.",
           optional: true,
         },
       ] as const,
@@ -198,6 +205,7 @@ class MoltBrainPlugin {
           }
           const body: any = { data: parsed };
           if (args.key) body.key = args.key;
+          if (args.label) body.label = args.label;
 
           const res = await x402Request(
             this.wallet,
@@ -277,7 +285,8 @@ class MoltBrainPlugin {
       name: "moltbrain_allocate_slot",
       description:
         "Allocate a named memory slot for persistent key-value storage. " +
-        "Costs $0.01 USDC on Base. Returns a slot ID for read/write operations.",
+        "Costs $0.01 USDC on Base. Returns a slot ID for read/write operations. " +
+        "Slots show up in the MoltBrain vault dapp (app.moltbrain.dev/storage).",
       args: [
         {
           name: "name",
@@ -287,6 +296,12 @@ class MoltBrainPlugin {
         {
           name: "description",
           description: "Optional description of what the slot stores",
+          optional: true,
+        },
+        {
+          name: "label",
+          description:
+            "Optional label to tag who allocated this (e.g. 'virtuals_agent'). Shows as a badge in the vault dapp.",
           optional: true,
         },
       ] as const,
@@ -301,6 +316,7 @@ class MoltBrainPlugin {
           logger(`Allocating slot "${args.name}"...`);
           const body: any = { name: args.name };
           if (args.description) body.description = args.description;
+          if (args.label) body.label = args.label;
 
           const res = await x402Request(
             this.wallet,
